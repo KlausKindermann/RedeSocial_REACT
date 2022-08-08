@@ -1,0 +1,272 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+}
+a {
+ font-weight: bold;
+ color: black;
+}
+ion-icon{
+ font-size: 26px;
+}
+.topo-da-pagina {
+ height: 54px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-bottom-style: solid;
+ border-color:#DBDBDB;
+ border-width: 1px;
+ box-sizing: border-box;
+}
+.barra-topo {
+ width: 900px;
+ height: 54px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ background-color: #ffffff;
+}
+ .barra {
+ height: 30px;
+ width: 2px;
+ background-color: #DBDBDB;
+ margin-left: 8px;
+ margin-right: 8px;
+}
+.nome-instagram{
+ display: flex;
+}
+.barra-pesquisa{
+ width: 215px;
+ height: 28px;
+ background-color: #FAFAFA;
+ border-style: solid;
+ border-color:#DBDBDB;
+ border-width: 1px;
+ box-sizing: border-box;
+}
+p1 {
+ margin-top: 8px;
+ margin-left: 68px;
+ color: #979797;
+}
+.conteudo-pagina{
+    display: flex;
+    background-color: #FAFAFA;
+    justify-content: center;
+}
+.menu-stories {
+ width: 614px;
+ height: 118px;
+ background-color: #ffffff;
+ margin-bottom: 30px;
+ border-style: solid;
+ border-color:#DBDBDB;
+ border-width: 1px;
+ box-sizing: border-box;
+ overflow: hidden;
+ margin-top: 40px;
+ display: flex;
+}
+.stories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.imagem-stories {
+ width: 66px;
+ height: 66px;
+}
+.borda {
+ width: 66px;
+ height: 66px;
+}
+.dentro-stories {
+ width: 56px;
+ height: 56px;
+ position: absolute;
+ right: 64.5px;
+ bottom: 5.3px;
+}
+.post {
+ width: 614px;
+ height: 749px;
+ border-style: solid;
+ border-color:#DBDBDB;
+ border-width: 1px;
+ box-sizing: border-box;
+ margin-bottom: 50px;
+ background-color: #ffffff;
+}
+.topo {
+ height: 61px;
+ display: flex;
+ align-items: center;
+}
+.icone-perfil {
+ width: 32px;
+ height: 32px;
+ margin-left: 15px;
+}
+.nome-do-perfil{
+ font-size: 14px;
+ margin-left: 10px;
+}
+.pontinhos{
+ margin-left: 465px;
+}
+.interagir {
+ height: 32px;
+ display: flex;
+ align-items: center;
+}
+.coraçao{
+ margin-left: 13px;
+}
+.comentario{
+ margin-left: 10px;
+}
+.enviar{
+ margin-left: 10px;
+}
+.salvar{
+    margin-left: 465px;
+}
+.curtidas{
+ height: 38px;
+ display: flex;
+ align-items: center;
+}
+.icone-de-quem-curtiu {
+ width: 20px;
+ height: 20px;
+ margin-left: 15px;
+}
+.quem-curtiu{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.sugestoes {
+    width: 293px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.foto-de-perfil{
+    width: 56px;
+    height: 56px;
+   }
+.perfil-de-sugestao {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 14px;
+    color: #262626
+}
+h2 {
+    font-size: 12px;
+    color: #8E8E8E;
+}
+h3 {
+    font-size: 12px;
+    color: #139EF2;
+    margin-left: 70px;
+}
+h4{
+    font-size: 12px;
+    color: #C7C7C7;
+}
+h5 {
+    font-size: 12px;
+    color: #262626;
+}
+.perfil-em-destque{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sugestoes-para-voce{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.informaçoes-do-perfil {
+    margin-left: 10px;
+    width: 150px;
+}
+.direitos-instagram{
+    height: 60px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topo-da-pagina-mobile {
+ width: 614px;
+ height: 54px;
+ align-items: center;
+ justify-content: space-between;
+ background-color: red;
+ display: flex;
+ display: none;
+}
+.barra-fixa-mobile {
+    width: 614px;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    display: none;  
+}
+@media (max-width: 900px) {
+
+.sugestoes {
+    display: none;
+  }
+}
+@media (max-width: 614px) {
+ .topo-da-pagina {
+ display: none;
+ }
+ .barra-topo {
+    display: none;
+ }
+ .topo-da-pagina-mobile {
+    height: 54px;
+    border-style: solid;
+    border-color:#DBDBDB;
+    border-width: 1px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    display: flex;
+}
+.barra-fixa-mobile {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    border-style: solid;
+    border-color:#DBDBDB;
+    border-width: 1px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+}
+.parte-principal{
+    width: 100%;
+}
+.menu-stories {
+    background-color:#FAFAFA;
+}
+}
